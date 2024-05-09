@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8738A593752404994D6B5CD7 /* libPods-CCWebDAVDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16400AC80D3DB5494F1DAFE7 /* libPods-CCWebDAVDemo.a */; };
+		96A82BE5292B51F2003F4273 /* NSString+Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A82BE4292B51F2003F4273 /* NSString+Encode.m */; };
+		96CFB57229278D4900EB53AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CFB57129278D4900EB53AB /* AppDelegate.m */; };
+		96CFB57529278D4900EB53AB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CFB57429278D4900EB53AB /* SceneDelegate.m */; };
+		96CFB57829278D4900EB53AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CFB57729278D4900EB53AB /* ViewController.m */; };
+		96CFB57B29278D4900EB53AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CFB57929278D4900EB53AB /* Main.storyboard */; };
+		96CFB57D29278D4A00EB53AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CFB57C29278D4A00EB53AB /* Assets.xcassets */; };
+		96CFB58029278D4A00EB53AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CFB57E29278D4A00EB53AB /* LaunchScreen.storyboard */; };
+		96CFB58329278D4A00EB53AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CFB58229278D4A00EB53AB /* main.m */; };
+		96CFB58D29278D4A00EB53AB /* CCWebDAVDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CFB58C29278D4A00EB53AB /* CCWebDAVDemoTests.m */; };
+		96CFB59729278D4A00EB53AB /* CCWebDAVDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CFB59629278D4A00EB53AB /* CCWebDAVDemoUITests.m */; };
+		96CFB59929278D4A00EB53AB /* CCWebDAVDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CFB59829278D4A00EB53AB /* CCWebDAVDemoUITestsLaunchTests.m */; };
+		96CFB5AA29278E1600EB53AB /* UOWebDavSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CFB5A629278E1600EB53AB /* UOWebDavSessionManager.m */; };
+		96CFB5AB29278E1600EB53AB /* ONOXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CFB5A929278E1600EB53AB /* ONOXMLDocument.m */; };
+		96CFB5AE29278E2100EB53AB /* UOWebDavManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CFB5AD29278E2100EB53AB /* UOWebDavManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96CFB58929278D4A00EB53AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96CFB56529278D4900EB53AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96CFB56C29278D4900EB53AB;
+			remoteInfo = CCWebDAVDemo;
+		};
+		96CFB59329278D4A00EB53AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96CFB56529278D4900EB53AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96CFB56C29278D4900EB53AB;
+			remoteInfo = CCWebDAVDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16400AC80D3DB5494F1DAFE7 /* libPods-CCWebDAVDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCWebDAVDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D40BE49FD3681A8C893B7AC /* Pods-CCWebDAVDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCWebDAVDemo.release.xcconfig"; path = "Target Support Files/Pods-CCWebDAVDemo/Pods-CCWebDAVDemo.release.xcconfig"; sourceTree = "<group>"; };
+		409269D6F8964739C14093EC /* Pods-CCWebDAVDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCWebDAVDemo.debug.xcconfig"; path = "Target Support Files/Pods-CCWebDAVDemo/Pods-CCWebDAVDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		96A82BE3292B51F2003F4273 /* NSString+Encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encode.h"; sourceTree = "<group>"; };
+		96A82BE4292B51F2003F4273 /* NSString+Encode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encode.m"; sourceTree = "<group>"; };
+		96CFB56D29278D4900EB53AB /* CCWebDAVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCWebDAVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CFB57029278D4900EB53AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96CFB57129278D4900EB53AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96CFB57329278D4900EB53AB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		96CFB57429278D4900EB53AB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		96CFB57629278D4900EB53AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		96CFB57729278D4900EB53AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96CFB57A29278D4900EB53AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96CFB57C29278D4A00EB53AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96CFB57F29278D4A00EB53AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96CFB58129278D4A00EB53AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CFB58229278D4A00EB53AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96CFB58829278D4A00EB53AB /* CCWebDAVDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCWebDAVDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CFB58C29278D4A00EB53AB /* CCWebDAVDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCWebDAVDemoTests.m; sourceTree = "<group>"; };
+		96CFB59229278D4A00EB53AB /* CCWebDAVDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCWebDAVDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CFB59629278D4A00EB53AB /* CCWebDAVDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCWebDAVDemoUITests.m; sourceTree = "<group>"; };
+		96CFB59829278D4A00EB53AB /* CCWebDAVDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCWebDAVDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		96CFB5A629278E1600EB53AB /* UOWebDavSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UOWebDavSessionManager.m; sourceTree = "<group>"; };
+		96CFB5A729278E1600EB53AB /* UOWebDavSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UOWebDavSessionManager.h; sourceTree = "<group>"; };
+		96CFB5A829278E1600EB53AB /* ONOXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONOXMLDocument.h; sourceTree = "<group>"; };
+		96CFB5A929278E1600EB53AB /* ONOXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONOXMLDocument.m; sourceTree = "<group>"; };
+		96CFB5AC29278E2100EB53AB /* UOWebDavManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UOWebDavManager.h; sourceTree = "<group>"; };
+		96CFB5AD29278E2100EB53AB /* UOWebDavManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UOWebDavManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96CFB56A29278D4900EB53AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8738A593752404994D6B5CD7 /* libPods-CCWebDAVDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CFB58529278D4A00EB53AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CFB58F29278D4A00EB53AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96CFB56429278D4900EB53AB = {
+			isa = PBXGroup;
+			children = (
+				96CFB56F29278D4900EB53AB /* CCWebDAVDemo */,
+				96CFB58B29278D4A00EB53AB /* CCWebDAVDemoTests */,
+				96CFB59529278D4A00EB53AB /* CCWebDAVDemoUITests */,
+				96CFB56E29278D4900EB53AB /* Products */,
+				9729963819082317A236851D /* Pods */,
+				9BAD1039441092301E2BC707 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96CFB56E29278D4900EB53AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96CFB56D29278D4900EB53AB /* CCWebDAVDemo.app */,
+				96CFB58829278D4A00EB53AB /* CCWebDAVDemoTests.xctest */,
+				96CFB59229278D4A00EB53AB /* CCWebDAVDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96CFB56F29278D4900EB53AB /* CCWebDAVDemo */ = {
+			isa = PBXGroup;
+			children = (
+				96CFB57029278D4900EB53AB /* AppDelegate.h */,
+				96CFB57129278D4900EB53AB /* AppDelegate.m */,
+				96CFB57329278D4900EB53AB /* SceneDelegate.h */,
+				96CFB57429278D4900EB53AB /* SceneDelegate.m */,
+				96CFB57629278D4900EB53AB /* ViewController.h */,
+				96CFB57729278D4900EB53AB /* ViewController.m */,
+				96CFB5AC29278E2100EB53AB /* UOWebDavManager.h */,
+				96CFB5AD29278E2100EB53AB /* UOWebDavManager.m */,
+				96CFB5A529278DA000EB53AB /* WebDAV */,
+				96CFB57929278D4900EB53AB /* Main.storyboard */,
+				96CFB57C29278D4A00EB53AB /* Assets.xcassets */,
+				96CFB57E29278D4A00EB53AB /* LaunchScreen.storyboard */,
+				96CFB58129278D4A00EB53AB /* Info.plist */,
+				96CFB58229278D4A00EB53AB /* main.m */,
+			);
+			path = CCWebDAVDemo;
+			sourceTree = "<group>";
+		};
+		96CFB58B29278D4A00EB53AB /* CCWebDAVDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				96CFB58C29278D4A00EB53AB /* CCWebDAVDemoTests.m */,
+			);
+			path = CCWebDAVDemoTests;
+			sourceTree = "<group>";
+		};
+		96CFB59529278D4A00EB53AB /* CCWebDAVDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96CFB59629278D4A00EB53AB /* CCWebDAVDemoUITests.m */,
+				96CFB59829278D4A00EB53AB /* CCWebDAVDemoUITestsLaunchTests.m */,
+			);
+			path = CCWebDAVDemoUITests;
+			sourceTree = "<group>";
+		};
+		96CFB5A529278DA000EB53AB /* WebDAV */ = {
+			isa = PBXGroup;
+			children = (
+				96CFB5A729278E1600EB53AB /* UOWebDavSessionManager.h */,
+				96CFB5A629278E1600EB53AB /* UOWebDavSessionManager.m */,
+				96CFB5A829278E1600EB53AB /* ONOXMLDocument.h */,
+				96CFB5A929278E1600EB53AB /* ONOXMLDocument.m */,
+				96A82BE3292B51F2003F4273 /* NSString+Encode.h */,
+				96A82BE4292B51F2003F4273 /* NSString+Encode.m */,
+			);
+			path = WebDAV;
+			sourceTree = "<group>";
+		};
+		9729963819082317A236851D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				409269D6F8964739C14093EC /* Pods-CCWebDAVDemo.debug.xcconfig */,
+				2D40BE49FD3681A8C893B7AC /* Pods-CCWebDAVDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9BAD1039441092301E2BC707 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16400AC80D3DB5494F1DAFE7 /* libPods-CCWebDAVDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96CFB56C29278D4900EB53AB /* CCWebDAVDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CFB59C29278D4A00EB53AB /* Build configuration list for PBXNativeTarget "CCWebDAVDemo" */;
+			buildPhases = (
+				82C88B80D30CCDA5788FFB76 /* [CP] Check Pods Manifest.lock */,
+				96CFB56929278D4900EB53AB /* Sources */,
+				96CFB56A29278D4900EB53AB /* Frameworks */,
+				96CFB56B29278D4900EB53AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCWebDAVDemo;
+			productName = CCWebDAVDemo;
+			productReference = 96CFB56D29278D4900EB53AB /* CCWebDAVDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96CFB58729278D4A00EB53AB /* CCWebDAVDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CFB59F29278D4A00EB53AB /* Build configuration list for PBXNativeTarget "CCWebDAVDemoTests" */;
+			buildPhases = (
+				96CFB58429278D4A00EB53AB /* Sources */,
+				96CFB58529278D4A00EB53AB /* Frameworks */,
+				96CFB58629278D4A00EB53AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96CFB58A29278D4A00EB53AB /* PBXTargetDependency */,
+			);
+			name = CCWebDAVDemoTests;
+			productName = CCWebDAVDemoTests;
+			productReference = 96CFB58829278D4A00EB53AB /* CCWebDAVDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96CFB59129278D4A00EB53AB /* CCWebDAVDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CFB5A229278D4A00EB53AB /* Build configuration list for PBXNativeTarget "CCWebDAVDemoUITests" */;
+			buildPhases = (
+				96CFB58E29278D4A00EB53AB /* Sources */,
+				96CFB58F29278D4A00EB53AB /* Frameworks */,
+				96CFB59029278D4A00EB53AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96CFB59429278D4A00EB53AB /* PBXTargetDependency */,
+			);
+			name = CCWebDAVDemoUITests;
+			productName = CCWebDAVDemoUITests;
+			productReference = 96CFB59229278D4A00EB53AB /* CCWebDAVDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96CFB56529278D4900EB53AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					96CFB56C29278D4900EB53AB = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					96CFB58729278D4A00EB53AB = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 96CFB56C29278D4900EB53AB;
+					};
+					96CFB59129278D4A00EB53AB = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 96CFB56C29278D4900EB53AB;
+					};
+				};
+			};
+			buildConfigurationList = 96CFB56829278D4900EB53AB /* Build configuration list for PBXProject "CCWebDAVDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96CFB56429278D4900EB53AB;
+			productRefGroup = 96CFB56E29278D4900EB53AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96CFB56C29278D4900EB53AB /* CCWebDAVDemo */,
+				96CFB58729278D4A00EB53AB /* CCWebDAVDemoTests */,
+				96CFB59129278D4A00EB53AB /* CCWebDAVDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96CFB56B29278D4900EB53AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CFB58029278D4A00EB53AB /* LaunchScreen.storyboard in Resources */,
+				96CFB57D29278D4A00EB53AB /* Assets.xcassets in Resources */,
+				96CFB57B29278D4900EB53AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CFB58629278D4A00EB53AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CFB59029278D4A00EB53AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82C88B80D30CCDA5788FFB76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCWebDAVDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96CFB56929278D4900EB53AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CFB5AA29278E1600EB53AB /* UOWebDavSessionManager.m in Sources */,
+				96CFB5AB29278E1600EB53AB /* ONOXMLDocument.m in Sources */,
+				96CFB57829278D4900EB53AB /* ViewController.m in Sources */,
+				96CFB57229278D4900EB53AB /* AppDelegate.m in Sources */,
+				96CFB58329278D4A00EB53AB /* main.m in Sources */,
+				96A82BE5292B51F2003F4273 /* NSString+Encode.m in Sources */,
+				96CFB57529278D4900EB53AB /* SceneDelegate.m in Sources */,
+				96CFB5AE29278E2100EB53AB /* UOWebDavManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CFB58429278D4A00EB53AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CFB58D29278D4A00EB53AB /* CCWebDAVDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CFB58E29278D4A00EB53AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CFB59929278D4A00EB53AB /* CCWebDAVDemoUITestsLaunchTests.m in Sources */,
+				96CFB59729278D4A00EB53AB /* CCWebDAVDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96CFB58A29278D4A00EB53AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96CFB56C29278D4900EB53AB /* CCWebDAVDemo */;
+			targetProxy = 96CFB58929278D4A00EB53AB /* PBXContainerItemProxy */;
+		};
+		96CFB59429278D4A00EB53AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96CFB56C29278D4900EB53AB /* CCWebDAVDemo */;
+			targetProxy = 96CFB59329278D4A00EB53AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96CFB57929278D4900EB53AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96CFB57A29278D4900EB53AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96CFB57E29278D4A00EB53AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96CFB57F29278D4A00EB53AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96CFB59A29278D4A00EB53AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96CFB59B29278D4A00EB53AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96CFB59D29278D4A00EB53AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409269D6F8964739C14093EC /* Pods-CCWebDAVDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CCWebDAVDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carven.CCWebDAVDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96CFB59E29278D4A00EB53AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D40BE49FD3681A8C893B7AC /* Pods-CCWebDAVDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CCWebDAVDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carven.CCWebDAVDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96CFB5A029278D4A00EB53AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carven.CCWebDAVDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCWebDAVDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CCWebDAVDemo";
+			};
+			name = Debug;
+		};
+		96CFB5A129278D4A00EB53AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carven.CCWebDAVDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCWebDAVDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CCWebDAVDemo";
+			};
+			name = Release;
+		};
+		96CFB5A329278D4A00EB53AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carven.CCWebDAVDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CCWebDAVDemo;
+			};
+			name = Debug;
+		};
+		96CFB5A429278D4A00EB53AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carven.CCWebDAVDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CCWebDAVDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96CFB56829278D4900EB53AB /* Build configuration list for PBXProject "CCWebDAVDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CFB59A29278D4A00EB53AB /* Debug */,
+				96CFB59B29278D4A00EB53AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96CFB59C29278D4A00EB53AB /* Build configuration list for PBXNativeTarget "CCWebDAVDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CFB59D29278D4A00EB53AB /* Debug */,
+				96CFB59E29278D4A00EB53AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96CFB59F29278D4A00EB53AB /* Build configuration list for PBXNativeTarget "CCWebDAVDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CFB5A029278D4A00EB53AB /* Debug */,
+				96CFB5A129278D4A00EB53AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96CFB5A229278D4A00EB53AB /* Build configuration list for PBXNativeTarget "CCWebDAVDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CFB5A329278D4A00EB53AB /* Debug */,
+				96CFB5A429278D4A00EB53AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96CFB56529278D4900EB53AB /* Project object */;
+}

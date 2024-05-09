@@ -1,0 +1,5 @@
+platform:'ios', '11.0'
+target 'CCWebDAVDemo' do
+	pod 'AFNetworking'
+  pod 'Masonry'
+end
