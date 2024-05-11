@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8738A593752404994D6B5CD7 /* libPods-CCWebDAVDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16400AC80D3DB5494F1DAFE7 /* libPods-CCWebDAVDemo.a */; };
 		96A82BE5292B51F2003F4273 /* NSString+Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A82BE4292B51F2003F4273 /* NSString+Encode.m */; };
+		96CEE5B92BEF51FA002A200F /* CCWebDavManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CEE5B82BEF51FA002A200F /* CCWebDavManager.m */; };
 		96CFB57229278D4900EB53AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CFB57129278D4900EB53AB /* AppDelegate.m */; };
 		96CFB57529278D4900EB53AB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CFB57429278D4900EB53AB /* SceneDelegate.m */; };
 		96CFB57829278D4900EB53AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CFB57729278D4900EB53AB /* ViewController.m */; };
@@ -47,6 +48,8 @@
 		409269D6F8964739C14093EC /* Pods-CCWebDAVDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCWebDAVDemo.debug.xcconfig"; path = "Target Support Files/Pods-CCWebDAVDemo/Pods-CCWebDAVDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		96A82BE3292B51F2003F4273 /* NSString+Encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encode.h"; sourceTree = "<group>"; };
 		96A82BE4292B51F2003F4273 /* NSString+Encode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encode.m"; sourceTree = "<group>"; };
+		96CEE5B72BEF51FA002A200F /* CCWebDavManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCWebDavManager.h; sourceTree = "<group>"; };
+		96CEE5B82BEF51FA002A200F /* CCWebDavManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCWebDavManager.m; sourceTree = "<group>"; };
 		96CFB56D29278D4900EB53AB /* CCWebDAVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCWebDAVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96CFB57029278D4900EB53AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96CFB57129278D4900EB53AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -131,6 +134,8 @@
 				96CFB57729278D4900EB53AB /* ViewController.m */,
 				96CFB5AC29278E2100EB53AB /* UOWebDavManager.h */,
 				96CFB5AD29278E2100EB53AB /* UOWebDavManager.m */,
+				96CEE5B72BEF51FA002A200F /* CCWebDavManager.h */,
+				96CEE5B82BEF51FA002A200F /* CCWebDavManager.m */,
 				96CFB5A529278DA000EB53AB /* WebDAV */,
 				96CFB57929278D4900EB53AB /* Main.storyboard */,
 				96CFB57C29278D4A00EB53AB /* Assets.xcassets */,
@@ -346,6 +351,7 @@
 			files = (
 				96CFB5AA29278E1600EB53AB /* UOWebDavSessionManager.m in Sources */,
 				96CFB5AB29278E1600EB53AB /* ONOXMLDocument.m in Sources */,
+				96CEE5B92BEF51FA002A200F /* CCWebDavManager.m in Sources */,
 				96CFB57829278D4900EB53AB /* ViewController.m in Sources */,
 				96CFB57229278D4900EB53AB /* AppDelegate.m in Sources */,
 				96CFB58329278D4A00EB53AB /* main.m in Sources */,
