@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface CCWebDavManager : NSObject
 
 @property (copy, nonatomic) NSString *url;
+@property (copy, nonatomic) NSString *ur11;
 @end
 
 NS_ASSUME_NONNULL_END
